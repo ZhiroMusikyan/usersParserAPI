@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>User list</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>UserName</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tBodyId"></tbody>
+            </table>
+
+            <button id="addButtonId">Add</button>
+        </div>
+        <div id="popupId" class="popup">
+            <label for = 'name'> Name </label>
+            <input type="text" id="name">
+            <label for = 'username'>UserName</label>
+            <input type="text" id="username">
+            <button id="cancelId" style="width: auto"> Cancel</button>
+            <button id="addId" style="width: auto">Save</button>
+        </div>
+    </div>
+</body>
+</html>

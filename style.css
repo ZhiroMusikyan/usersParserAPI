@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+div#popupId{
+    background-color: black;
+    color: white;
+    height: 121%;
+    width: 450%;
+}
+
+table, tr, th, td {
+    width: 400px;
+    height: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+
+}
+
+button:hover{
+    background-color: lightslategray;
+}
+
+
+button {
+    border-radius: 5px;
+    background-color: moccasin;
+    size: auto;
+    height: 38px;
+    width: 33px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.popup {
+    display: none;
+
+}
+
+.showPopup {
+    display: block; !important;
+    height: 100vh;
+    width: 100vh;
+    position: absolute;
+    z-index: 1;
+    /*background-color: antiquewhite;*/
+    opacity: 0.8;
+}
+lable, input{
+    opacity: initial;
+    background-color: antiquewhite;
+    position: relative;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+button#add {
+    background-size: 25px 40px;
+    /*background-image: url();*/
+}
